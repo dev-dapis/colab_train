@@ -1,0 +1,7 @@
+path: /content/colab_train/charge/data  # dataset root dir
+train: /content/colab_train/charge/data/images/train/  # train images (relative to 'path') 128 images
+val: /content/colab_train/charge/data/images/val/  # val images (relative to 'path') 128 images
+
+# Classes
+nc: 2  # number of classes
+names: ['charge_truck', 'person']  # class names
